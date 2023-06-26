@@ -85,7 +85,7 @@
 
         if (select_all_chk && !stop_run) {
             await select_all_chk.click()
-            await sleep(4000)
+            await sleep(5500)
 
             // Select save to apollo BTN
             var btn_save_to_apollo = await document.querySelector(selectors_array[run_mode].save_to_apollo_btn)
